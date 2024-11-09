@@ -1,18 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
-import { BlogProvider } from "@/hook/useContext";
+import Header from "@/components/Header";
+import { Anybody, Raleway } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const anybody = Anybody({ subsets: ["latin"], variable: "--font-anybody" });
+const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
 
 export const metadata: Metadata = {
   title: "Demo",
@@ -26,10 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <BlogProvider>{children}</BlogProvider>
+      <body className={`${anybody.variable} ${raleway.variable} font-anyway`}>
+        <Header />
+        {children}
       </body>
     </html>
   );
