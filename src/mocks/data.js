@@ -242,6 +242,45 @@ const data = {
     },
     { author: "Laura Orestano", authorImage: "blog5.jpg", title: "Impact Q&A" },
   ],
+  categories: [
+    {
+      title: "articoli",
+      description: "Trend, dati e novità del Terzo settore",
+    },
+    {
+      title: "storie",
+      description: "Letture ed approfondimenti dei fenomeni complessi.",
+    },
+    {
+      title: "interviste",
+      description: "Racconti reali di persone ed organizzazioni.",
+    },
+    {
+      title: "opinioni",
+      description: "Riflessioni e confronti dei nostri opinionisti.",
+    },
+    {
+      title: "Podcast",
+      description:
+        "Un luogo per dare voce ai protagonisti della sostenibilità.",
+    },
+    {
+      title: "Bookazine",
+      description: "Una rivista da leggere e un libro da conservare.",
+    },
+  ],
+  subMenuCategories: [
+    {
+      title: "Chi siamo",
+    },
+    {
+      title: "Comitato editoriale",
+    },
+    { title: "Servizi" },
+    { title: "Agenda / Eventi" },
+    { title: "Mappa dell’attivismo" },
+    { title: "Inchieste crowdfunding" },
+  ],
 };
 
 export default data;

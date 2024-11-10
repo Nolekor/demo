@@ -16,3 +16,12 @@ export type IAuthor = {
   author: string;
   authorImage: string;
 };
+
+export type ICategories = {
+  title: string;
+  description: string;
+};
+
+export type ISubMenu = {
+  title: string;
+};

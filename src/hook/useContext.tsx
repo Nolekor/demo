@@ -1,5 +1,11 @@
 "use client";
-import { IArticles, IAuthor, IBlog } from "@/types/IArticles";
+import {
+  IArticles,
+  IAuthor,
+  IBlog,
+  ICategories,
+  ISubMenu,
+} from "@/types/IArticles";
 import React, {
   createContext,
   useContext,
@@ -13,6 +19,8 @@ type BlogData = {
   articles: IArticles[];
   blog: IBlog[];
   author: IAuthor[];
+  categories: ICategories[];
+  subMenuCategories: ISubMenu[];
 };
 
 // Define the default data
@@ -20,6 +28,8 @@ const defaultData: BlogData = {
   articles: [],
   blog: [],
   author: [],
+  categories: [],
+  subMenuCategories: [],
 };
 
 // Define the context type
