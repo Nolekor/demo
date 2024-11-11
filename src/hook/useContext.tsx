@@ -18,7 +18,7 @@ import data from "../mocks/data";
 type BlogData = {
   articles: IArticles[];
   blog: IBlog[];
-  author: IAuthor[];
+  authors: IAuthor[];
   categories: ICategories[];
   subMenuCategories: ISubMenu[];
 };
@@ -27,7 +27,7 @@ type BlogData = {
 const defaultData: BlogData = {
   articles: [],
   blog: [],
-  author: [],
+  authors: [],
   categories: [],
   subMenuCategories: [],
 };

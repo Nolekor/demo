@@ -15,7 +15,7 @@ const data = {
       tag: "allarmi",
       author: "Ugo Lombi",
       date: "2023-07-14",
-      image: "articles2.jpg",
+      image: "articles2.png",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const data = {
       tag: "ucraina",
       author: "Anna Spena",
       date: "2023-07-14",
-      image: "articles4.jpg",
+      image: "articles4.png",
     },
     {
       id: 5,
@@ -157,14 +157,14 @@ const data = {
       image: "articles17.jpg",
     },
   ],
-  author: [
+  authors: [
     {
       author: "Alessandra Puglia",
       authorImage: "author1.jpg",
     },
     {
       author: "Ugo Lombi",
-      authorImage: "author2.jpg",
+      authorImage: "author2.png",
     },
     {
       author: "Diletta Grella",

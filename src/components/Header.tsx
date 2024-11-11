@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Menu from "./Menu/Menu";
+import CategoryList from "./CategoryList/CategoryList";
 
 const Header = () => {
   return (
-    <div className="sticky top-0 z-10">
+    <div className="sticky bg-white top-0 z-10">
       <div className="h-[44px] sm:hidden" id="apple-space"></div>
       <div className="flex justify-around lg:justify-normal lg:items-start lg:py-1 text-sm lg:border-b border-black">
         <Link
@@ -37,6 +38,7 @@ const Header = () => {
         </Link>
       </div>
       <Menu />
+      <CategoryList />
     </div>
   );
 };
